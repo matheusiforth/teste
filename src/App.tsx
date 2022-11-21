@@ -7,7 +7,7 @@ export function App() {
       <div> 
         <h1>teste</h1>
 
-        <div>
+        <div style={{width: '70vh', height: '70vh'}}>
           <Grafico />
         </div>
       </div>
