@@ -23,8 +23,6 @@ export function App() {
           value={dadosDigitados}
           onChange={(e) => setDadosDigitados(e.target.value)} />
 
-        {/* <br /> */}
-
         <Button onClick={limpa} type='reset'>limpa</Button>
 
       </div>
