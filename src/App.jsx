@@ -8,7 +8,7 @@ export function App() {
 
   function Limpa(ev) {
     ev.preventDefault();
-    dadosDigitados.push('');
+    setDadosDigitados('');
   }
 
 
@@ -23,7 +23,7 @@ export function App() {
           value={dadosDigitados}
           onChange={(e) => setDadosDigitados(e.target.value)} />
 
-        <Button onClick={limpa} type='reset'>limpa</Button>
+        <Button onClick={Limpa} type='reset'>limpa</Button>
 
       </div>
     </div>
